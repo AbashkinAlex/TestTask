@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import org.tbee.javafx.scene.layout.fxml.MigPane?>
+<!--<?import layouttests.migfxml.sample1.*?>-->
+
+<?import javafx.scene.text.Text?>
+<!--<?import com.sun.javafx.scene.control.skin.ContextMenuContent.MenuLabel?>-->
+<?import javafx.scene.layout.AnchorPane?>
+
+<MigPane id="rootPane" fx:controller="com.alexabashkin.controller.TaskController"
+
+         styleClass="main-panel"
+         layout="insets 20"
+         cols="[label, pref!][grow, 50::]"
+         rows=""
+         xmlns:fx="http://javafx.com/fxml">
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <Label text="Task1:"/>
+    <Text fx:id="task1" MigPane.cc="growx, wrap"/>
+    <Label text="Your name is:"/>
+    <TextField fx:id="nameField" prefColumnCount="30" MigPane.cc="growx, wrap"/>
+    <Label text="The number of brackets is:"/>
+    <TextField fx:id="inputNumberField" prefColumnCount="30" MigPane.cc="growx, wrap"/>
+    <Button text="Show Result for task 1" onAction="#task1" MigPane.cc="skip, gap :push, gaptop 15, wrap"/>
+    <Label fx:id="messageLabelTask1" styleClass="hello-message" MigPane.cc="span, growx, gaptop 15"/>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <Label text="Task2:"/>
+    <Text fx:id="task2" MigPane.cc="growx, wrap"/>
+    <Button text="File with Task2" onAction="#fileChooser" MigPane.cc="skip, gap :push, gaptop 15, wrap"/>
+    <Button text="Show Result for task 2" onAction="#task2" MigPane.cc="skip, gap :push, gaptop 15, wrap"/>
+    <Label fx:id="messageLabelTask2" styleClass="hello-message" MigPane.cc="span, growx, gaptop 15"/>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <Label text="Task3:"/>
+    <Text fx:id="task3" MigPane.cc="growx, wrap"/>
+    <Button text="Show Result for task 3" onAction="#task3" MigPane.cc="skip, gap :push, gaptop 15, wrap"/>
+    <Label fx:id="messageLabelTask3" styleClass="hello-message" MigPane.cc="span, growx, gaptop 15"/>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Surprise~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <Button text="Don`t click here..." onAction="#startPlayer" MigPane.cc="skip, gap :push, gaptop 15, wrap"/>
+
+</MigPane>
+
+
+

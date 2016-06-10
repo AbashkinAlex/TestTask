@@ -1,0 +1,46 @@
+2016-06-10 12:43:04 INFO  MainApp:39 - Starting application
+2016-06-10 12:43:04 DEBUG MainApp:42 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:43:05 DEBUG MainApp:46 - Showing JFX scene
+2016-06-10 12:52:12 INFO  MainApp:42 - Starting application
+2016-06-10 12:52:12 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:52:13 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 12:53:04 INFO  MainApp:42 - Starting application
+2016-06-10 12:53:04 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:53:05 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 12:53:25 INFO  MainApp:42 - Starting application
+2016-06-10 12:53:25 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:53:25 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 12:53:47 INFO  MainApp:42 - Starting application
+2016-06-10 12:53:47 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:53:47 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 12:54:49 INFO  MainApp:42 - Starting application
+2016-06-10 12:54:49 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:54:50 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 12:58:04 INFO  MainApp:42 - Starting application
+2016-06-10 12:58:04 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:58:04 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 12:59:04 INFO  MainApp:42 - Starting application
+2016-06-10 12:59:04 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 12:59:04 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 13:00:41 INFO  MainApp:42 - Starting application
+2016-06-10 13:00:41 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 13:00:42 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 13:00:46 DEBUG TaskController:47 - Saying hello to dfb
+2016-06-10 13:01:11 DEBUG TaskController:47 - Saying hello to dfb
+2016-06-10 13:01:12 DEBUG TaskController:47 - Saying hello to dfb
+2016-06-10 13:01:53 INFO  MainApp:42 - Starting application
+2016-06-10 13:01:53 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 13:01:53 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 13:02:00 DEBUG TaskController:47 - Saying hello to fds
+2016-06-10 13:02:43 INFO  MainApp:42 - Starting application
+2016-06-10 13:02:43 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 13:02:44 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 13:02:48 DEBUG TaskController:47 - Saying hello to sdf
+2016-06-10 20:13:10 INFO  MainApp:42 - Starting application
+2016-06-10 20:13:10 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 20:13:10 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 20:13:15 DEBUG TaskController:47 - Saying hello to dhf
+2016-06-10 21:24:58 INFO  MainApp:42 - Starting application
+2016-06-10 21:24:58 DEBUG MainApp:45 - Loading FXML for main view from: {}/fxml/hello.fxml
+2016-06-10 21:24:58 DEBUG MainApp:49 - Showing JFX scene
+2016-06-10 21:25:07 DEBUG TaskController:47 - Saying hello to jknj
